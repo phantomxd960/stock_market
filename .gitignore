@@ -1,0 +1,29 @@
+# Node & npm
+node_modules/
+dist/
+build/
+.npm/
+
+# Python & virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Cache & temporary files
+backend/data/price_cache.json
+backend/exports/test_export.xlsx
+
+# Preserved project files
+!backend/data/presets.json
+!symbols.csv
+!Momentum_Rank.xlsx
